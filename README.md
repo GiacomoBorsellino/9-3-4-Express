@@ -4,7 +4,7 @@
     Progetto che consiste in una landing page creata tramite Bootstrap 4 e jQuery.
   </p>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/9-3-4-Express/main/images/logo.png" alt="screenshot" width="80%">
+    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/9-3-4-Express/main/images/logo.png" alt="screenshot" width="60%">
   </p>
 </p>
 
@@ -29,7 +29,8 @@
 
 
 ## Utilizzo
-9 ¾ Express è una landing page, dal design minimale creata utilizzando il framework BootStrap. Per quanto sia riproducibile tramite fogni di stile CSS, il framework permette la realizzazione di web sites, SPA o applicazioni web, bypassando la normale stilizzazione, permettendo il risparmio di tempo conseguente.
+9 ¾ Express è una landing page, dal design minimale e di cui ho curato personalmente logo e componente grafica, creata utilizzando il framework BootStrap.</br> 
+Per quanto sia riproducibile tramite fogni di stile CSS, il framework permette la realizzazione di web sites, SPA o applicazioni web, bypassando la normale stilizzazione, permettendo il risparmio di tempo conseguente, per quanto siano stati fatti dei ritocchi manuali in CSS3.</br>
 Il sito rappresenta una fittizia attività che usa come tema la nota saga letteraria di J.K. Rowling.
 
 ## Prerequisiti
