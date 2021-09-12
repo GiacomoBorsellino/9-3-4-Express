@@ -1,0 +1,162 @@
+/* FONT */
+@font-face {
+    font-family: almendra;
+    src: url(./font/Almendra-Regular.otf);
+}
+
+.head-banner {
+    background-color: #848484;
+    padding-top: 10rem;
+    padding-bottom: 14rem;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+nav {
+    background-color: #312b28;
+}
+
+.navbar-brand img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.sezione-icone {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.bi {
+    width:60px;
+    height:60px;
+}
+
+.sezione-immagini .immagine {
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.sezione-immagini .testo {
+    padding: 3rem;
+}
+
+.col-img img {
+    width: 13rem;
+}
+
+.newsletter {
+    background-color: #848484;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.list-inline-item svg {
+    width: 30px;
+    color: black;
+}
+
+.up {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    bottom: 3rem;
+    right: 3rem;
+    width: 2rem;
+    color: black;
+    animation: opac 1s;
+}
+
+@keyframes opac {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+/* MOD */
+body {
+    background-color: #312b28;
+    font-family: almendra;
+}
+
+h1 img {
+    width: 17rem;
+    animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+    0%{transform: rotateY(0deg);}
+    30%{transform: rotateY(90deg);}
+    60%{transform: rotateY(180deg);}
+    80%{transform: rotateY(90deg);}
+    100%{transform: rotateY(0deg);}
+
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white !important;
+    opacity: 0.8;
+}
+
+.nav-item a:hover {
+    opacity: 1;
+    color: #bf9f62;
+}
+
+.list-inline-item a {
+    color: #312b28;
+}
+
+.list-inline-item svg {
+    color: #312b28;
+}
+
+@media only screen and (min-width: 768px) {
+.head-banner {
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.sezione-immagini .testo {
+    padding: 7rem;
+}
+
+/* MOD */
+h1 img {
+    width: 26rem;
+}
+
+.navbar-nav {
+    margin-left: 60%;
+    text-align: end;
+}
+
+.nav-item a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white !important;
+}
+
+}
+
+@media only screen and (min-width: 1365px) {
+/* MOD */
+.navbar-nav {
+    margin-left: 70%;
+}
+}
